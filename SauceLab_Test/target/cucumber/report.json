@@ -1,0 +1,500 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Opening the Sauce lab Application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1255753100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open the sauce lab application",
+            "match": {
+              "location": "com.SaucelabMainClass.Background.open_the_sauce_lab_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d118.0.5993.120)\nBuild info: version: \u00274.15.0\u0027, revision: \u00271d14b5521b\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [b382bc7a55b24fe3d56f70f9d7039062, findElement {using\u003dxpath, value\u003d//div[@id \u003d \u0027root\u0027]//div//div[text() \u003d \u0027Swag Labs\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.120, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\\Users\\admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64694}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64694/devtoo..., se:cdpVersion: 118.0.5993.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: b382bc7a55b24fe3d56f70f9d7039062\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy22.getAttribute(Unknown Source)\r\n\tat com.SauceLabPages.PF_LoginPage.VerifythatTheURlRedirectTotheLoginPage(PF_LoginPage.java:35)\r\n\tat com.SaucelabMainClass.Background.verify_that_the_login_page_is_appeared_or_not(Background.java:31)\r\n\tat ✽.Verify that the Login page is Appeared or not(file:///C:/SauceLab_Test/src/test/resources/SauceLab_Feature/Start_to_Signoff.feature:8)\r\n",
+              "duration": 21889700,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "Verify that the Login page is Appeared or not",
+            "match": {
+              "location": "com.SaucelabMainClass.Background.verify_that_the_login_page_is_appeared_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-11-06T13:01:00.171Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4108100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Hooks.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2303393300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Hooks.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Test the login page using the Decision Table Technique",
+        "description": "",
+        "id": "automate-the-login-page-and-some-funcionality-of-filtering--add-to-cart--remove-and-logout-(sauce-lab);test-the-login-page-using-the-decision-table-technique",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d118.0.5993.120)\nBuild info: version: \u00274.15.0\u0027, revision: \u00271d14b5521b\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [b382bc7a55b24fe3d56f70f9d7039062, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.120, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\\Users\\admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64694}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64694/devtoo..., se:cdpVersion: 118.0.5993.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: b382bc7a55b24fe3d56f70f9d7039062\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:680)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:684)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:330)\r\n\tat com.Hooks.ApplicationHooks.tearDown(ApplicationHooks.java:45)\r\n",
+              "duration": 7014700,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.Hooks.ApplicationHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 191464000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Hooks.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Without Entering any Data click on Login Btn",
+            "match": {
+              "location": "com.SaucelabMainClass.MainLoginTest.ClickOnLoginBTNWIthoutEnterAnyData()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4007600,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Verify that the UserName Validation is appeared",
+            "match": {
+              "location": "com.SaucelabMainClass.MainLoginTest.VerificationofLoginBTNVerificationWIthoutEnteranydata(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Epic sadface: Username is required"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Enter the UserName and Click on Login Btn",
+            "match": {
+              "location": "com.SaucelabMainClass.MainLoginTest.InputheUserName()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1998500,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "Verify that the Password Required Validation is Appeared",
+            "match": {
+              "location": "com.SaucelabMainClass.MainLoginTest.Verify_that_the_Password_Required_Validation_is_Appeared(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Epic sadface: Password is required"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Enter the UserName and Password and Verify that the validation is working properly for ENtering Wrong user Name and Password",
+            "match": {
+              "location": "com.SaucelabMainClass.MainLoginTest.TestTheLoginFuncionalityWithTheHelpOfDecisionTable(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "UserName",
+                  "Password",
+                  "ValidationMsg"
+                ]
+              },
+              {
+                "cells": [
+                  "InvalidUserName",
+                  "secret_sauce",
+                  "Epic sadface: Username and password do not match any user in this service"
+                ]
+              },
+              {
+                "cells": [
+                  "locked_out_user",
+                  "InvalidPassword",
+                  "Epic sadface: Username and password do not match any user in this service"
+                ]
+              },
+              {
+                "cells": [
+                  "Invalid_UserName",
+                  "Invalid_Password",
+                  "Epic sadface: Username and password do not match any user in this service"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 999400,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "Verify that Case Sensitive is working",
+            "match": {
+              "location": "com.SaucelabMainClass.MainLoginTest.CaseSensitiveValidationVerification(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Standard_User",
+                  "secret_sauce",
+                  "Epic sadface: Username and password do not match any user in this service"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1002000,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "Enter the Correct UserName Password and Login to the Application",
+            "match": {
+              "location": "com.SaucelabMainClass.MainLoginTest.EnterTheCorrectCredentials()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1506900,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "Verify that the user is redirect to the Inventory Page",
+            "match": {
+              "location": "com.SaucelabMainClass.MainLoginTest.VerifythatTheUserwillRedirecttoTheInventoryPage()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SW_InterviewTest"
+          },
+          {
+            "name": "@SaucelabLoginPage"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Opening the Sauce lab Application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1111444200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open the sauce lab application",
+            "match": {
+              "location": "com.SaucelabMainClass.Background.open_the_sauce_lab_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d118.0.5993.120)\nBuild info: version: \u00274.15.0\u0027, revision: \u00271d14b5521b\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2875d47debe4f974d2129b853a878829, findElement {using\u003dxpath, value\u003d//div[@id \u003d \u0027root\u0027]//div//div[text() \u003d \u0027Swag Labs\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.120, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\\Users\\admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64710}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64710/devtoo..., se:cdpVersion: 118.0.5993.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 2875d47debe4f974d2129b853a878829\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy22.getAttribute(Unknown Source)\r\n\tat com.SauceLabPages.PF_LoginPage.VerifythatTheURlRedirectTotheLoginPage(PF_LoginPage.java:35)\r\n\tat com.SaucelabMainClass.Background.verify_that_the_login_page_is_appeared_or_not(Background.java:31)\r\n\tat ✽.Verify that the Login page is Appeared or not(file:///C:/SauceLab_Test/src/test/resources/SauceLab_Feature/Start_to_Signoff.feature:8)\r\n",
+              "duration": 11006600,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "Verify that the Login page is Appeared or not",
+            "match": {
+              "location": "com.SaucelabMainClass.Background.verify_that_the_login_page_is_appeared_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-11-06T13:01:04.101Z",
+        "before": [
+          {
+            "result": {
+              "duration": 997600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Hooks.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1644953100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Hooks.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Test The Filtering Product",
+        "description": "",
+        "id": "automate-the-login-page-and-some-funcionality-of-filtering--add-to-cart--remove-and-logout-(sauce-lab);test-the-filtering-product",
+        "after": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d118.0.5993.120)\nBuild info: version: \u00274.15.0\u0027, revision: \u00271d14b5521b\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [2875d47debe4f974d2129b853a878829, screenshot {}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.120, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\\Users\\admin\\AppData\\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64710}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64710/devtoo..., se:cdpVersion: 118.0.5993.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 2875d47debe4f974d2129b853a878829\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:680)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:684)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:330)\r\n\tat com.Hooks.ApplicationHooks.tearDown(ApplicationHooks.java:45)\r\n",
+              "duration": 9284900,
+              "status": "failed"
+            },
+            "match": {
+              "location": "com.Hooks.ApplicationHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 200994300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Hooks.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "Enter the Correct UserName Password and Login to the Application",
+            "match": {
+              "location": "com.SaucelabMainClass.MainLoginTest.EnterTheCorrectCredentials()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "Check by default sorting order from A to Z are selected",
+            "match": {
+              "location": "com.SaucelabMainClass.AddorRemoveProducts.VerificationOfByDefaultFilteringSet()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "Add to Cart Some Inventory Items and Before add to cart Get the Amount of that particular Product",
+            "match": {
+              "location": "com.SaucelabMainClass.AddorRemoveProducts.AddToCartSomeInventoryItemsandGetTheAmount(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ItemsName"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Backpack"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bolt T-Shirt"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Fleece Jacket"
+                ]
+              },
+              {
+                "cells": [
+                  "Test.allTheThings() T-Shirt (Red)"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "Click on the Cart Button which is on the Header top left",
+            "match": {
+              "location": "com.SaucelabMainClass.AddorRemoveProducts.ClickOnTheCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "Verify that all Item which we selected are on the cart List and amount is appearing Correctly",
+            "match": {
+              "location": "com.SaucelabMainClass.AddorRemoveProducts.VerifyTheItemandItemAmountAppearedCorrectly(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ItemsName"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Backpack"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bolt T-Shirt"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Fleece Jacket"
+                ]
+              },
+              {
+                "cells": [
+                  "Test.allTheThings() T-Shirt (Red)"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "Remove Some Selected Item",
+            "match": {
+              "location": "com.SaucelabMainClass.AddorRemoveProducts.RemoveSomeSelectedItems(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "ItemsName"
+                ]
+              },
+              {
+                "cells": [
+                  "Test.allTheThings() T-Shirt (Red)"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "Click On Check Out Button",
+            "match": {
+              "location": "com.SaucelabMainClass.AddorRemoveProducts.ClickOnCheckOutBTN()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SW_InterviewTest"
+          },
+          {
+            "name": "@AddOrRemoveItems"
+          }
+        ]
+      }
+    ],
+    "name": "Automate the Login page and Some funcionality of Filtering, Add to Cart, Remove and logout (Sauce lab)",
+    "description": "  I want to Automate the Login page with the help of the Decision Table technique and then Automate the Filtering and Add to Card funcionality",
+    "id": "automate-the-login-page-and-some-funcionality-of-filtering--add-to-cart--remove-and-logout-(sauce-lab)",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/SauceLab_Feature/Start_to_Signoff.feature",
+    "tags": [
+      {
+        "name": "@SW_InterviewTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
